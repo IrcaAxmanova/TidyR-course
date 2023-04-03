@@ -40,4 +40,4 @@ We will work with following public datasets:
 
 ### 5 Get your code smooth and efficient
 
-* `urrr::map()`, `furrr::map_future()`
+* `purrr::map()`, `furrr::map_future()`
