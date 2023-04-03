@@ -26,18 +26,37 @@ We will work with following public datasets:
 
 ### 3 Data import and basics of wrangling
 
+Reading the data and subsetting it.
 * `read_csv()`, `read_xlsx()`, `write_csv()`, `write_xlsx()`
 * `|>` & `%>%`
 * `select()`, `filter()`
 * regex
+
+Computation of means inside groups.
 * `mutate()`, `group_by()`, `summarise()`
+
+Reshaping/pivotting dataframes
 * `pivot_longer()`, `pivot_wider()`
+
+Merging tables from different sources
 * `left_join()`, `semi_join()`, `anti_join()`
 
 ### 4 Plotting
 
 * `ggplot()`
 
+Plot aestetics
+* `ggplot(aes(x = x, y = y, colour = group))`
+
+Geometry types
+* `geom_point()`, `geom_line()`, `geom_path()`, `geom_bar()`, `geom_boxplot()`...
+* [`geom_sf()`](https://ggplot2.tidyverse.org/reference/ggsf.html)
+* [`geom_spatraster()`](https://dieghernan.github.io/tidyterra/reference/geom_spatraster.html)
+
+Facetting
+* `facet_wrap()`, `facet_grid()` [link](http://zevross.com/blog/2019/04/02/easy-multi-panel-plots-in-r-using-facet_wrap-and-facet_grid-from-ggplot2/)
+
 ### 5 Get your code smooth and efficient
 
 * `purrr::map()`, `furrr::map_future()`
+* tidymodels
