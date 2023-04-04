@@ -1,4 +1,5 @@
 # Tidy R course
+hello
 
 ## Course structure
 
