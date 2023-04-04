@@ -16,6 +16,7 @@ Why is R such a special programming language?
 * https://chat.openai.com/chat
 * https://www.google.com/
 * your own code from old projects
+* Cheat Sheat
 
 #### Data
 
