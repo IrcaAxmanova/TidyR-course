@@ -5,7 +5,7 @@
 ### 1 Introduction to tidy coding
 
 * Why is R such a special programming language?
-* Projects in RStudio
+* [Projects in RStudio or Pycharm](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
 * GitHub
 
 ### 2 How and where to seek for help
