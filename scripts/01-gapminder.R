@@ -15,6 +15,7 @@ data |>
   ggplot(aes(children_per_woman, life_expectancy, text = country)) +
   geom_point(aes(size = pop, fill = continent, group = country), shape = 21) +
   scale_size_continuous(range = c(1, 15)) -> p
+
 ggplotly(p, tooltip = 'text')
 
 data |>
