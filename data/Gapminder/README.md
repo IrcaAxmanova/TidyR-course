@@ -1,14 +1,17 @@
 Source: https://www.gapminder.org/data/
 
+From Gapminder website:
+"
 Our mission is to fight devastating ignorance with a fact-based worldview everyone can understand.
 
 Gapminder identifies systematic misconceptions about important global trends and proportions and uses reliable data to develop easy to understand teaching materials to rid people of their misconceptions.
 
 Gapminder is an independent Swedish foundation with no political, religious, or economic affiliations.
+"
 
 
+To prepare the data for our use, KC did following:
 
-### to prepare the data for our use, KC did following:
 ```{r}
 library(gapminder)
 library(tidyverse)
