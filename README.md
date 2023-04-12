@@ -1,22 +1,48 @@
 # Tidy R course
-hello
 
 ## Course structure
 
-### 1 Introduction to tidy code and tidy data
-Why is R such a special programming language?
+### 1 Introduction to tidy coding
 
+* Why is R such a special programming language?
 * Projects in RStudio
 * GitHub
 
 ### 2 How and where to seek for help
 
-* https://stackoverflow.com/
-* https://r4ds.had.co.nz/
-* https://chat.openai.com/chat
-* https://www.google.com/
-* your own code from old projects
-* Cheat Sheat
+* Listen to us
+* [Programming books](https://r4ds.had.co.nz/)
+* [Cheat Sheat](https://posit.co/resources/cheatsheets/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Artificial inteligence](https://chat.openai.com/chat)
+* [Google](https://www.google.com/)
+* Your own code from old projects
+* Ask us anytime later
+
+### 3 Pipe and pipelines
+
+* The logic of reverse code (data first, function then)
+* native pipe |> 
+* traditional pipe %>% 
+* compouned pipe %<>%
+
+### 4 Tidy data
+
+* Irča
+
+### 4 Gapminder, basic data visualization
+
+* Dataset: [Gapminder](https://www.gapminder.org/data/)
+* [Hans Rosling TED talk introducing the Gapminder project](https://www.youtube.com/watch?v=hVimVzgtD6w&ab_channel=TED)
+* read_csv() tibble() versus data.frame()
+* ggplot2()
+
+### 5 Forest undestory diversity
+
+* Dataset: [IA](IA.path)
+* 
+
+
 
 #### Data
 
