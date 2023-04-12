@@ -10,13 +10,13 @@
 
 ### 2 How and where to seek for help
 
-* Listen to us
-* [Programming books](https://r4ds.had.co.nz/)
+* Listen to us / ask around
+* Look up your own code from old projects
 * [Cheat Sheat](https://posit.co/resources/cheatsheets/)
-* [Stack Overflow](https://stackoverflow.com/)
 * [Artificial inteligence](https://chat.openai.com/chat)
 * [Google](https://www.google.com/)
-* Your own code from old projects
+* [Stack Overflow](https://stackoverflow.com/)
+* [Programming books](https://r4ds.had.co.nz/)
 * Ask us anytime later
 
 ### 3 Pipe and pipelines
