@@ -21,10 +21,10 @@ Why is R such a special programming language?
 #### Data
 
 We will work with following public datasets:
-- [`Forest-steppe`](https://zenodo.org/record/4783984#.ZCrK5fZByUk)
+- [`Forest-steppe_KC`](https://zenodo.org/record/4783984#.ZCrK5fZByUk)
   - A vegetation plot data with 3 to 5 samples of different habitats per site
   - Four data frames (long species data, environmental data for plots, environmental data for sites, species traits)
-- [`Irco add name`](https://and.path)
+- [`Productivity_IA`](https://and.path)
 
 ### 3 Data import and basics of wrangling
 
