@@ -21,6 +21,7 @@
 
 ### 3 Tidy data & tidy code
 
+* Tidy and untidy data
 * The logic of reverse code (data first, function then)
 * native pipe |> 
 * traditional pipe %>% 
