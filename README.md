@@ -39,8 +39,10 @@
 * Dataset: [Forest-understory-diversity](https://doi.org/10.1111/j.1466-8238.2011.00707.x)
   - vegetation plot data of deciduous forest in CZ (oak, oak-hornbeam, ravine, alluvial), sampled in 10x10m2, 
   - long format of individual species data, with additional environmental variables to be used for explanation of understory diversity (pH, biomass...)
-* dplyr basics: select(), filter(), left_join (), group_by(), summarise(), mutate (), count(), distinct ()
+* dplyr basics: select(), filter(), left_join(), group_by(), summarise(), mutate(), count(), distinct()
+* ggplot2()
 * simple map with sf
+
 
 ### 6 Trees and shrubs in forest-steppe, dplyr advanced
 * [`Forest-steppe_KC`](https://zenodo.org/record/4783984#.ZCrK5fZByUk)
