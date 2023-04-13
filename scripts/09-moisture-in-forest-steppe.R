@@ -18,7 +18,6 @@ countries <- rnaturalearth::ne_countries(scale = 10, continent = 'Europe', retur
 sites |>
   st_as_sf(coords = c('LONGITUDE', 'LATITUDE'), crs = 4326) -> sites_sf
 
-
 bb <- st_bbox(sites_sf) |> as.numeric()
 sites_sf |>
   ggplot() +
@@ -31,8 +30,6 @@ chelsa12 <- rast(r'(data\Forest-steppe_KC\chelsa12.tif)')
 
 sites$temperature <- terra::extract(chelsa01, vect(sites_sf))[, 2]
 sites$precipitation <- terra::extract(chelsa12, vect(sites_sf))[, 2]
-
-sites
 
 spe |>
   #filter(LAYER %in% c(1, 4)) |>
