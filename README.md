@@ -19,7 +19,7 @@
 * [Programming books](https://r4ds.had.co.nz/)
 * Ask us anytime later
 
-### 4 Tidy data & tidy code
+### 3 Tidy data & tidy code
 
 * The logic of reverse code (data first, function then)
 * native pipe |> 
