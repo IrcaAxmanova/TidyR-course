@@ -19,16 +19,12 @@
 * [Programming books](https://r4ds.had.co.nz/)
 * Ask us anytime later
 
-### 3 Pipe and pipelines
+### 4 Tidy data & tidy code
 
 * The logic of reverse code (data first, function then)
 * native pipe |> 
 * traditional pipe %>% 
 * compouned pipe %<>%
-
-### 4 Tidy data
-
-* Irča
 
 ### 4 Gapminder, basic data visualization
 
