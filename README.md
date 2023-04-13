@@ -5,7 +5,7 @@
 ### 1 Introduction to tidy coding
 
 * Why is R such a special programming language?
-* Projects in RStudio
+* [Projects in RStudio or Pycharm](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
 * GitHub
 
 ### 2 How and where to seek for help
@@ -37,54 +37,23 @@
 * read_csv() tibble() versus data.frame()
 * ggplot2()
 
-### 5 Forest undestory diversity
+### 5 Forest undestory diversity, dplyr basics
 
 * Dataset: [IA](IA.path)
-* 
+* Irca
 
-
-
-#### Data
-
-We will work with following public datasets:
-- [`Forest-steppe_KC`](https://zenodo.org/record/4783984#.ZCrK5fZByUk)
+### 6 Trees and shrubs in forest-steppe, dplyr advanced
+* [`Forest-steppe_KC`](https://zenodo.org/record/4783984#.ZCrK5fZByUk)
   - A vegetation plot data with 3 to 5 samples of different habitats per site
   - Four data frames (long species data, environmental data for plots, environmental data for sites, species traits)
-- [`Productivity_IA`](https://and.path)
 
-### 3 Data import and basics of wrangling
+### 7 Real world data from a database
+* Irca
 
-Reading the data and subsetting it.
-* `read_csv()`, `read_xlsx()`, `write_csv()`, `write_xlsx()`
-* `|>` & `%>%`
-* `select()`, `filter()`
-* regex
-
-Computation of means inside groups.
-* `mutate()`, `group_by()`, `summarise()`
-
-Reshaping/pivotting dataframes
-* `pivot_longer()`, `pivot_wider()`
-
-Merging tables from different sources
-* `left_join()`, `semi_join()`, `anti_join()`
-
-### 4 Plotting
-
-* `ggplot()`
-
-Plot aestetics
-* `ggplot(aes(x = x, y = y, colour = group))`
-
-Geometry types
-* `geom_point()`, `geom_line()`, `geom_path()`, `geom_bar()`, `geom_boxplot()`...
-* [`geom_sf()`](https://ggplot2.tidyverse.org/reference/ggsf.html)
-* [`geom_spatraster()`](https://dieghernan.github.io/tidyterra/reference/geom_spatraster.html)
-
-Facetting
-* `facet_wrap()`, `facet_grid()` [link](http://zevross.com/blog/2019/04/02/easy-multi-panel-plots-in-r-using-facet_wrap-and-facet_grid-from-ggplot2/)
-
-### 5 Get your code smooth and efficient
-
+### 8 Back to Gapminder, simple use of map
 * `purrr::map()`, `furrr::map_future()`
 * tidymodels
+
+### 9 Back to Forest-steppe
+* advanced usage of map 
+* nested dataframes
