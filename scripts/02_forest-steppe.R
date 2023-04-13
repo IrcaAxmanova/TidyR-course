@@ -28,8 +28,8 @@ chelsa01 <- rast(r'(C:\Users\krystof\Documents\R-project\2023\CHELSA\CHELSA_bio1
 chelsa12 <- rast(r'(C:\Users\krystof\Documents\R-project\2023\CHELSA\CHELSA_bio12_2011-2040_gfdl-esm4_ssp126_V.2.1.tif)')
 
 
-writeRaster(crop(chelsa01, st_bbox(st_buffer(sites_sf, 1000))), 'chelsa01.tif')
-writeRaster(crop(chelsa12, st_bbox(st_buffer(sites_sf, 1000))), 'chelsa12.tif')
+writeRaster(crop(chelsa01, st_bbox(st_buffer(sites_sf, 1000))), '../data/Forest-steppe_KC/chelsa01.tif')
+writeRaster(crop(chelsa12, st_bbox(st_buffer(sites_sf, 1000))), '../data/Forest-steppe_KC/chelsa12.tif')
 
 
 env |>
