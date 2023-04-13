@@ -8,7 +8,7 @@
 * [Projects in RStudio or Pycharm](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
 * GitHub
 
-### 2 How and where to seek for help
+### 2 How and where to seek help
 
 * Listen to us / ask around
 * Look up your own code from old projects
