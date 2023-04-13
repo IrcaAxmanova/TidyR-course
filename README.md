@@ -8,7 +8,7 @@
 * [Projects in RStudio or Pycharm](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
 * GitHub
 
-### 2 How and where to seek for help
+### 2 How and where to seek help
 
 * Listen to us / ask around
 * Look up your own code from old projects
@@ -19,16 +19,12 @@
 * [Programming books](https://r4ds.had.co.nz/)
 * Ask us anytime later
 
-### 3 Pipe and pipelines
+### 3 Tidy data & tidy code
 
 * The logic of reverse code (data first, function then)
 * native pipe |> 
 * traditional pipe %>% 
 * compouned pipe %<>%
-
-### 4 Tidy data
-
-* Irča
 
 ### 4 Gapminder, basic data visualization
 
@@ -54,6 +50,6 @@
 * `purrr::map()`, `furrr::map_future()`
 * tidymodels
 
-### 9 Back to Forest-steppe
+### 9 Moisture in Forest-steppe
 * advanced usage of map 
 * nested dataframes
