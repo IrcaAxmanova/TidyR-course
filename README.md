@@ -50,6 +50,6 @@
 * `purrr::map()`, `furrr::map_future()`
 * tidymodels
 
-### 9 Back to Forest-steppe
+### 9 Moisture in Forest-steppe
 * advanced usage of map 
 * nested dataframes
